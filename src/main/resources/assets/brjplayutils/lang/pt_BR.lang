@@ -3,7 +3,7 @@ itemGroup.tabBRjPlayUtils=BRjPlay Utils
 
 
 //Blocks
-block.block_dimensional_shard.name=Bloco de Pedaço de Dimensão
+tile.block_dimensional_shard.name=Bloco de Pedaço de Dimensão
 
 //Items
 item.egg_seed.name=Semente de Planta Ovo
