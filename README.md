@@ -1,4 +1,4 @@
 # BRjPlays Utils
 
-A Mod by the BRForgers Team
+A Mod by the BRForgers Team.
 
