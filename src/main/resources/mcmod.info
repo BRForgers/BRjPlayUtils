@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "brjplayutils",
+    "name": "BRjPlay Utils",
+    "description": "...",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "authorList": [
+      "BRForgers"
+    ]
+  }
+]

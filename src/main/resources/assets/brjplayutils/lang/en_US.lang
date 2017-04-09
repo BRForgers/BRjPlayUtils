@@ -1,0 +1,12 @@
+//Interface
+itemGroup.tabBRjPlayUtils=BRjPlay Utils
+
+
+//Blocks
+block.block_dimensional_shard.name=Dimensional Shard Block
+
+//Items
+item.egg_seed.name=Egg Plant Seed
+
+//Misc
+tile.crop_egg.name=Egg Plant
