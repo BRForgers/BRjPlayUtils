@@ -11,6 +11,7 @@ public class CommonProxy
         BlockManager.init();
         ItemManager.init();
     }
+
     public void postInit() {
         RecipeManager.init();
         MinecraftForge.EVENT_BUS.register(new DragonKill());

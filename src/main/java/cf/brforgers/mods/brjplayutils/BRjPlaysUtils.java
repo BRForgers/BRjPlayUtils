@@ -26,13 +26,13 @@ import org.apache.logging.log4j.Logger;
         modid = BRjPlaysUtils.MOD_ID,
         name = BRjPlaysUtils.MOD_NAME,
         version = BRjPlaysUtils.VERSION,
-        dependencies = "required-after:actuallyadditions;required-after:rftools"
+        dependencies = "required-after:actuallyadditions;required-after:rftools;required-after:mekanism"
 )
 public class BRjPlaysUtils {
 
     public static final String MOD_ID = "brjplayutils";
     public static final String MOD_NAME = "BRjPlay Utils";
-    public static final String VERSION = "1.0";
+    public static final String VERSION = "1.1";
     //Proxy Identity
     public static final String COMMONPROXY = "cf.brforgers.mods.brjplayutils.proxy.CommonProxy";
     public static final String CLIENT = "cf.brforgers.mods.brjplayutils.proxy.ClientProxy";
@@ -61,6 +61,12 @@ public class BRjPlaysUtils {
         {
             return true;
         }
+
+        @Override
+        @SideOnly(Side.CLIENT)
+        public String getBackgroundImageName() {
+            return "item_search.png";
+        }
     };
 
     @EventHandler
@@ -73,6 +79,7 @@ public class BRjPlaysUtils {
 
     @EventHandler
     public void init(FMLInitializationEvent event) {
+
     }
 
     @EventHandler
